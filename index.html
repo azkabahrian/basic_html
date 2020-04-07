@@ -4,10 +4,49 @@
             latihan html
         </title>
 
+      <!--ini adalah css internal -->
+        <style type="text/css">
+            .box{
+                color: red;
+            }
+            #warnanya{
+                color: red;
+            }
+            .warna_body{
+                background-color: blue;
+            }
+            </style>
+
+       <!--ini adalah css ekstenal -->
+            <link rel="stylesheet" type="text/css" href="asset/style.css" />
+
+         <!-- ini adalah css dari internet dari boostrap-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+                       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     </head>
-<body>
-    <h1>huruf besar</h1>
-    <div>latihan html</div>
+<body class="warna_body">
+   
+
+    <h1 id="warnanya">huruf besar</h1>
+    <div class="box">latihan html</div>
+
+<!-- ini adalah css dari internet dari boostrap-->
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+
+    <h1 id="c">huruf besar</h1>
+    <div class="b">latihan html</div>
+
 </body>
 
 </html>
